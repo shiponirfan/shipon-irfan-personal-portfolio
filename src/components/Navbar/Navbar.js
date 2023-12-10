@@ -30,7 +30,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="fixed container left-1/2 -translate-x-1/2 bg-primary-blue-gray h-20 flex justify-between items-center">
+    <div className="fixed z-40 container left-1/2 -translate-x-1/2 bg-primary-blue-gray h-20 flex justify-between items-center">
       <div className="w-48 flex justify-start">
         <Link href="/" className="flex gap-4 items-center">
           <span className="text-primary-blue-gray bg-primary-main h-20 w-20 flex justify-center items-center text-4xl">
