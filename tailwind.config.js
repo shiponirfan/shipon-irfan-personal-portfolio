@@ -15,7 +15,7 @@ module.exports = {
         'primary-dark': '#02050a',
         'primary-gray': '#09101a',
         'primary-blue-gray': '#141c27',
-      }
+      },
     },
   },
   plugins: [],
