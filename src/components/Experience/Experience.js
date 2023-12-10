@@ -1,7 +1,7 @@
 
 const Experience = () => {
     return (
-        <div className="bg-primary-gray pb-28">
+        <div id="experience" className="bg-primary-gray pb-28">
       <div className="container px-6 lg:px-8 mx-auto">
         <div className="space-y-5 text-white">
           <h3 className="uppercase text-xl font-medium text-primary-main">

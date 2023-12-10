@@ -6,11 +6,11 @@ import { LuExternalLink } from "react-icons/lu";
 
 const Projects = () => {
   return (
-    <div className="bg-primary-dark py-28">
+    <div id="projects" className="bg-primary-dark py-28">
       <div className="container px-6 lg:px-8 mx-auto">
         <div className="space-y-5 text-white">
           <h3 className="uppercase text-xl font-medium text-primary-main">
-            My Skills
+          Projects
           </h3>
           <h2 className="text-5xl font-semibold">Recent Project</h2>
         </div>

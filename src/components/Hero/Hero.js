@@ -1,12 +1,13 @@
 "use client";
 import Image from "next/image";
 import heroBg from "@/assets/images/hero-bg.jpg";
-import heroImage from "@/assets/images/shipon-transparent .png";
+import heroImage from "@/assets/images/shipon-transparent.png";
 import { FaDownload } from "react-icons/fa6";
+import DownloadResume from "../Shared/DownloadResume";
 
 const Hero = () => {
   return (
-    <div className="h-screen">
+    <div id="home" className="h-screen">
       <div className="absolute w-full h-full -z-10">
         <Image
           src={heroBg}
@@ -31,9 +32,7 @@ const Hero = () => {
             Solutions 💻✨
           </p>
           <div>
-            <button className="flex justify-center items-center gap-2 bg-primary-main py-5 px-8 text-primary-blue-gray font-medium hover:bg-primary-blue-gray hover:text-white duration-300">
-              Download CV <FaDownload />
-            </button>
+            <DownloadResume/>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="bg-primary-gray py-28">
+    <div id="skills" className="bg-primary-gray py-28">
       <div className="container px-6 lg:px-8 mx-auto flex justify-center items-center gap-16">
         <div className="w-1/2 text-white space-y-5">
           <h3 className="uppercase text-xl font-medium text-primary-main">

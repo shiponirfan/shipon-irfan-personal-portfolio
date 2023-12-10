@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 const Contact = () => {
   return (
-    <div className="bg-primary-dark py-28">
+    <div id="contact" className="bg-primary-dark py-28">
       <div className="container px-6 lg:px-8 mx-auto flex justify-center items-center text-white">
         <div className="w-1/3 ">
           <Image

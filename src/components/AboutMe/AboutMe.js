@@ -1,10 +1,10 @@
-import React from "react";
+"use client"
 import aboutMeImage from "@/assets/images/about-me.png";
 import Image from "next/image";
-import { FaDownload } from "react-icons/fa6";
+import DownloadResume from "../Shared/DownloadResume";
 const AboutMe = () => {
   return (
-    <div className="bg-primary-dark py-28">
+    <div id="about" className="bg-primary-dark py-28">
       <div className="container px-6 lg:px-8 mx-auto flex justify-center items-center">
         <div className="w-1/2 text-white space-y-5">
           <h3 className="uppercase text-xl font-medium text-primary-main">
@@ -21,9 +21,7 @@ const AboutMe = () => {
           <p>🚀 Whether it&apos;s transforming design concepts into responsive and interactive web pages or optimizing performance for a smoother user journey, I am committed to delivering high-quality solutions that make a meaningful impact.</p>
           <p>🌐 When I&apos;m not immersed in coding, you can find me exploring the latest trends in frontend development, staying curious about emerging technologies, and continually seeking ways to enhance my skills.</p>
           <p>Let&apos;s collaborate and turn your ideas into captivating digital experiences!</p>
-          <button className="flex justify-center items-center gap-2 bg-primary-main py-5 px-8 text-primary-blue-gray font-medium hover:bg-primary-blue-gray hover:text-white duration-300">
-              Download CV <FaDownload />
-            </button>
+          <DownloadResume/>
         </div>
         <div className="w-1/2 justify-end flex">
           <Image
