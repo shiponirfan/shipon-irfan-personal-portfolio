@@ -2,7 +2,7 @@ import { FaDownload } from "react-icons/fa6";
 
 const DownloadResume = () => {
   const handleDownload = () => {
-    const resumePdfUrl = "https://drive.google.com/u/0/uc?id=12AAeABZUk7uyR9CNmAELRzFu5BWeN-Fm&export=download";
+    const resumePdfUrl = "https://drive.google.com/u/0/uc?id=1NjExaCRIYtxR8kFxhem2LLJ2ic0PSK9d&export=download";
     window.open(resumePdfUrl, "_blank");
   };
   return (
