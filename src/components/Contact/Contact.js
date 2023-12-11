@@ -5,9 +5,9 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 const Contact = () => {
   return (
-    <div id="contact" className="bg-primary-dark py-28">
-      <div className="container px-6 lg:px-8 mx-auto flex justify-center items-center text-white">
-        <div className="w-1/3 ">
+    <div id="contact" className="bg-primary-dark md:py-28 py-16">
+      <div className="container px-6 lg:px-8 mx-auto flex flex-col-reverse lg:flex-row gap-8 justify-center items-center text-white">
+        <div className="lg:w-1/3 w-full flex flex-col items-center lg:items-stretch">
           <Image
             src={personalImage}
             alt="Shipon irfan"
@@ -51,12 +51,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-2/3">
-          <div className="space-y-5">
+        <div className="lg:w-2/3 w-full">
+          <div className="md:space-y-5 space-y-3">
             <h3 className="uppercase text-xl font-medium text-primary-main">
               Contact
             </h3>
-            <h2 className="text-5xl font-semibold">
+            <h2 className="md:text-5xl text-3xl font-semibold">
               Let’s Discuss Your Project
             </h2>
           </div>

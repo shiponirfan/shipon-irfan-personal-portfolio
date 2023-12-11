@@ -1,12 +1,12 @@
 const Skills = () => {
   return (
-    <div id="skills" className="bg-primary-gray py-28">
-      <div className="container px-6 lg:px-8 mx-auto flex justify-center items-center gap-16">
-        <div className="w-1/2 text-white space-y-5">
+    <div id="skills" className="bg-primary-gray md:py-28 py-16">
+      <div className="container px-6 lg:px-8 mx-auto flex flex-col lg:flex-row justify-center items-center gap-16">
+        <div className="lg:w-1/2 w-full text-white md:space-y-5 space-y-3 text-xs md:text-base">
           <h3 className="uppercase text-xl font-medium text-primary-main">
             My Skills
           </h3>
-          <h2 className="text-5xl font-semibold">
+          <h2 className="md:text-5xl text-3xl font-semibold">
             Passionate & Proficient Developer
           </h2>
           <p>
@@ -18,7 +18,7 @@ const Skills = () => {
             into seamless digital experiences. Let&apos;s innovate together!
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2 w-full">
           <div className="w-full px-4">
             <div className="mb-8">
               <h2 className="text-white text-xl mb-1">React Js</h2>

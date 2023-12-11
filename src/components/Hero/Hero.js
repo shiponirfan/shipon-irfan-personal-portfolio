@@ -17,16 +17,16 @@ const Hero = () => {
           alt="banner"
         />
       </div>
-      <div className="container px-6 lg:px-8 h-full mx-auto flex justify-between items-center text-white">
-        <div className="w-1/3 space-y-6">
+      <div className="container px-6 lg:px-8 h-full mx-auto py-32 lg:py-0 flex flex-col lg:flex-row justify-between items-center text-white">
+        <div className="lg:w-1/2 w-full md:space-y-6 space-y-3">
           <div>
-            <h2 className="uppercase font-bold text-6xl">HI, I&apos;M</h2>
-            <h2 className="uppercase font-bold text-6xl text-primary-main">
+            <h2 className="uppercase font-bold md:text-6xl text-3xl">HI, I&apos;M</h2>
+            <h2 className="uppercase font-bold md:text-6xl text-3xl text-primary-main">
               Shipon Irfan!
             </h2>
-            <h2 className="uppercase font-bold text-4xl">Frontend Developer</h2>
+            <h2 className="uppercase font-bold md:text-4xl text-xl">Frontend Developer</h2>
           </div>
-          <p className="pr-20">
+          <p className="md:pr-20">
             Dedicated MERN Stack Developer, Passionate about Front-End,
             Elevating User Experiences with React.js, Turning Ideas into Web
             Solutions 💻✨
@@ -36,8 +36,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[650px]">
-          <Image src={heroImage} height={650} width={650} alt="shipon irfan" />
+        <div className="xl:w-[650px] lg:w-[500px]">
+          <Image src={heroImage}  alt="shipon irfan" />
         </div>
       </div>
     </div>

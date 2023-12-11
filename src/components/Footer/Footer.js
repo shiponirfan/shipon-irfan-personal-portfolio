@@ -2,7 +2,7 @@
 import ScrollToTop from "react-scroll-to-top";
 const Footer = () => {
   return (
-    <div className="bg-primary-gray py-8 text-center text-white">
+    <div className="bg-primary-gray py-8 text-center text-white px-6">
       <p>
         Copyright © {new Date().getFullYear()} Shipon Irfan - All Right Reserved
       </p>
