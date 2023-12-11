@@ -3,6 +3,7 @@ import personalImage from "@/assets/images/shipon-irfan.jpg";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+import ContactForm from "../Shared/ContactForm";
 const Contact = () => {
   return (
     <div id="contact" className="bg-primary-dark md:py-28 py-16">
@@ -61,78 +62,7 @@ const Contact = () => {
             </h2>
           </div>
 
-          <form className="flex w-full space-x-3">
-            <div className="w-full px-5 py-10 m-auto mt-10 bg-primary-gray rounded-lg shadow">
-              <div className="grid grid-cols-2 gap-4 m-auto">
-                <div className="col-span-2 lg:col-span-1">
-                  <div className=" relative ">
-                    <h3 className="uppercase font-medium text-gray-300 mb-1">
-                      Your Name
-                    </h3>
-                    <input
-                      type="text"
-                      id="name"
-                      className=" rounded border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-primary-blue-gray placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary-main focus:border-transparent"
-                      placeholder="Name *"
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="col-span-2 lg:col-span-1">
-                  <div className=" relative ">
-                    <h3 className="uppercase font-medium text-gray-300 mb-1">
-                      Your Email
-                    </h3>
-                    <input
-                      type="email"
-                      id="email"
-                      className=" rounded border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-primary-blue-gray placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary-main focus:border-transparent"
-                      placeholder="Email *"
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="col-span-2">
-                  <div className=" relative ">
-                    <h3 className="uppercase font-medium text-gray-300 mb-1">
-                      Subject
-                    </h3>
-                    <input
-                      type="text"
-                      id="subject"
-                      className=" rounded border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-primary-blue-gray  placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary-main focus:border-transparent"
-                      placeholder="Subject *"
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="col-span-2">
-                  <h3 className="uppercase font-medium text-gray-300 mb-1">
-                    Your Message
-                  </h3>
-                  <label for="name">
-                    <textarea
-                      className="flex-1 w-full px-4 py-2 text-base  placeholder-gray-400 bg-primary-blue-gray border border-transparent rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary-main focus:border-transparent"
-                      id="message"
-                      placeholder="Your Message *"
-                      name="message"
-                      rows="5"
-                      cols="40"
-                      required
-                    ></textarea>
-                  </label>
-                </div>
-                <div className="col-span-2 text-right">
-                  <button
-                    type="submit"
-                    className="py-3 px-4 uppercase text-primary-dark bg-primary-main hover:bg-primary-dark focus:ring-primary-main focus:ring-offset-primary-blue-gray hover:text-white w-full transition ease-in duration-300 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded "
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </div>
-            </div>
-          </form>
+          <ContactForm/>
         </div>
       </div>
     </div>

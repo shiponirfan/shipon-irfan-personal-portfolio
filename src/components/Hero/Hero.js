@@ -40,11 +40,11 @@ const Hero = () => {
               wrapper="span"
               speed={50}
               style={{
-                fontSize: "2.5em",
                 display: "inline-block",
                 textTransform: "uppercase",
                 fontWeight: "bold",
               }}
+              className="2xl:text-4xl md:text-2xl xl:text-3xl text-lg"
               repeat={Infinity}
             />
           </div>

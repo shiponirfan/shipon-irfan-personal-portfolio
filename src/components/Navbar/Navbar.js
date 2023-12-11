@@ -4,9 +4,11 @@ import { FaBars } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
 import NavDrawer from "../Shared/NavDrawer";
 import { useState } from "react";
-
+import { FaRegEnvelope } from "react-icons/fa";
+import ContactDrawer from "../Shared/ContactDrawer";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isFormOpen, setIsFormOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
   const navItems = [
     {
@@ -83,13 +85,20 @@ const Navbar = () => {
         <div className="xl:w-48 flex justify-end">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-primary-blue-gray bg-primary-main h-20 w-20 flex justify-center items-center text-3xl"
+            className="text-primary-blue-gray lg:hidden bg-primary-main h-20 w-20 flex justify-center items-center text-3xl"
           >
             <FaBars />
+          </button>
+          <button
+            onClick={() => setIsFormOpen(!isFormOpen)}
+            className="text-primary-blue-gray hidden bg-primary-main h-20 w-20 lg:flex justify-center items-center text-3xl"
+          >
+            <FaRegEnvelope /> 
           </button>
         </div>
       </div>
       <NavDrawer isOpen={isOpen} setIsOpen={setIsOpen} />
+      <ContactDrawer isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen}/>
     </>
   );
 };
